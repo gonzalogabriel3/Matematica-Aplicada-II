@@ -22,7 +22,8 @@ public class metodosNumericos{
 			fx=p1+(p0-p1)/Math.PI*Math.acos(2*x/l);
 			iteraciones.add(fx);
 			
-		}	
+		}
+		
 		return iteraciones;
 	}
 	
@@ -53,6 +54,7 @@ public ArrayList<Double> calcularFuncion2(double a,double b,int n,double l){
 			
 		}	
 		resultado=(h/2)*(miVector.get(0)+sumatoria+miVector.get(n));
+		
 		return resultado;
 	}
 
@@ -78,6 +80,7 @@ public ArrayList<Double> calcularFuncion2(double a,double b,int n,double l){
 		}
 		
 		resultado=(3.0/8.0)*h*(miVector.get(0)+sumatoria+miVector.get(n));
+		
 		
 		return resultado;
 	}

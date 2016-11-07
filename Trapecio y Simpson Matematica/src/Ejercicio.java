@@ -50,15 +50,15 @@ public class Ejercicio{
 			resultadoTrapecio1=mtn.trapecio(miVector,-l/2,l/2,n);
 			resultadoTrapecio2=mtn.trapecio(miVector2, -l/2, l/2,n);
 			
-			System.out.println("Resultado obtenido con el metodo del trapecio:"+cantDecimales.format(resultadoTrapecio1)+"\n");
-			System.out.println("Resultado obtenido con el metodo del trapecio 2:"+cantDecimales.format(resultadoTrapecio2)+"\n");
+			System.out.println("Resultado obtenido con el metodo del trapecio con la primera integral:"+resultadoTrapecio1+"\n");
+			System.out.println("Resultado obtenido con el metodo del trapecio con la segunda integral:"+resultadoTrapecio2+"\n");
 			
 		}else if(opcion==2){
 			resultadoSimpson1=mtn.simpson(miVector,-l/2,l/2,n);
 			resultadoSimpson2=mtn.simpson(miVector2,-l/2,l/2,n);
 			
-			System.out.println("Resultado obtenido con el metodo de simpson: "+cantDecimales.format(resultadoSimpson1)+"\n");
-			System.out.println("Resultado obtenido con el metodo de simpson 2: "+cantDecimales.format(resultadoSimpson2)+"\n");
+			System.out.println("Resultado obtenido con el metodo de simpson con la primera integral:"+resultadoSimpson1+"\n");
+			System.out.println("Resultado obtenido con el metodo de simpson con la segunda integral: "+resultadoSimpson2+"\n");
 		}
 		
 	}while(opcion!=0);
