@@ -32,7 +32,7 @@ public class Ejercicio{
 	int n=in.nextInt();
 	
 	do{
-	
+		
 	if(opcion==3){
 	System.out.println("Ingrese valor de L");
 	l=in.nextDouble();
@@ -61,12 +61,9 @@ public class Ejercicio{
 			System.out.println("Resultado obtenido con el metodo de simpson 2: "+cantDecimales.format(resultadoSimpson2)+"\n");
 		}
 		
-	
-	
 	}while(opcion!=0);
 	
 	System.out.println("FIN PROGRAMA!!!");
 	
-	}
-		
+	}		
 }
